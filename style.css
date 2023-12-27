@@ -1,0 +1,97 @@
+body{
+    background: rgb(248, 72, 101);
+    margin:0;
+    padding: 0;
+}
+.toparea{
+    background: #b0544f;
+    padding: 10px 0;
+    text-align: center;
+    color: #FFF;
+}
+.logoarea{
+    background: #f2c38b;
+    padding: 50px 0;
+    text-align: center;
+}
+.logoarea img{
+    width: 110px;
+}
+.logoarea h1{
+    color: #74353f;
+    font-weight: 900;
+    text-shadow: 2px 4px 7px rgba(0,0,0,0.37);
+}
+.menuarea{
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+.slidearea{
+    background: #b0544f;
+    padding: 10px 0;
+}
+.principalarea{
+    background:#FFF;
+    padding: 68px 0;
+    text-align: center;
+}
+.pimage{
+    width: 100%;
+}
+.principalarea p{
+    text-align: justify;
+}
+.principalarea p:last-child{
+    text-align: right;
+    font-weight: bold;
+}
+.coursearea{
+    background: #FFF;
+    padding: 40px 0;
+    text-align: center;
+    background-image: url('assets/librarybg.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.coursearea h5{
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.brancharea{
+    background: #FFF;
+    padding: 20px;
+    border: solid 1px #d5d5d5;
+    
+}
+.branch{
+    width: 100%;
+    border-radius: 50%; 
+    padding: 25px;
+    transition: all 1.5s ease-in-out;
+}
+.brancharea:hover img{
+    transform:rotate(360deg);
+}
+.coursearea p:last-child{
+    color: #939393;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.coursearea a{
+    text-decoration: none;
+    color:#754027;
+}
+
+.alumniarea{
+    text-align: center;
+    background: url('assets/alumnibg.c44739f2d7dcb5d0.jpg');
+    background-repeat:repeat-y;
+    background-position: 0 -80px;
+    background-size: 100%;
+    padding: 70px 0;
+    width: 100%;
+}
