@@ -100,9 +100,25 @@ body{
     background: url('assets/micro_carbon.cfa0758c9310a463.png');
     
 }
+.footerarea ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footerarea ul li{
+    color: #C87F57;
+    margin-bottom: 10px;
+}
+.footerarea ul li:first-child{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    border-left: solid 5px #FFF;
+    padding-left: 10px;
+}
 .footerarea h4{
     color: #FFF;
-    border-right: solid 5px #FFF;
+    border-left: solid 5px #FFF;
     padding-right: 5px;
 }
 .footerarea p{
